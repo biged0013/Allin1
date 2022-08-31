@@ -1,0 +1,32 @@
+using System;
+
+public class GreatesNumber
+{
+    static void Main(string[] args)
+    {
+
+        int num1, num2, greater, equal;
+
+        Console.WriteLine("Please input the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Please input the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+
+        if (num1 < num2)
+        {
+            Console.WriteLine("Number 2 is greater than number 1.");
+        }
+
+        else if (num1 > num2)
+        {
+            Console.WriteLine("Number 1 is greater than number 2.");
+        }
+		
+		else
+            {
+                Console.WriteLine("Numbers are equal.");
+            }
+
+        Console.ReadLine();
+    }
+}
