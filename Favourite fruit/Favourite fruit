@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    private static void Main(string[] args)
+using System;
+
+class FavouriteFruit
+{
+	static void Main()
+	{
+		string answer;
+
+		Console.Write("What is your favourite fruit? ");
+		answer = Console.ReadLine();
+
+		Console.WriteLine("Your favourite fruit is Apple");
+
+	}
+}
