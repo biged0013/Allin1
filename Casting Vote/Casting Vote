@@ -1,0 +1,17 @@
+using System;
+
+namespace CastingVote
+{
+class Program
+{
+static void Main(string[] args)
+{
+Console.Write("Please input your age: \n");
+int age = int.Parse(Console.ReadLine());
+if(age>= 18)
+{
+Console.WriteLine("You can cast your vote!");
+}
+}
+}
+}
